@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clock{
+    width: 370px;
+    position: relative;
+    height: 370px;
+    border: 15px solid black;
+    border-radius: 100%;
+    left: 45%;
+    margin-top: 30px;
+    padding: 10%;
+  }
+
+  .smallc{
+    width: 10px;
+    position: absolute;
+    height: 10px;
+    border: 3px solid black;
+    border-radius: 100%;
+    left: 48%;
+    top: 50%;
+  }
+
+  .sechand{
+    position: absolute;
+    width: 0.5px;
+    border: 1px solid black;
+    background-color: black;
+    height: 200px;
+    left: 49%;
+    top: 11%;
+    border-radius: 5px;
+    transform-origin: bottom;
+    
+  }
+
+  .hrhand{
+    position: absolute;
+    width: 5px;
+    border: 1px solid black;
+    background-color: black;
+    height: 150px;
+    left: 49%;
+    top: 21%;
+    border-radius: 5px;
+    transform: rotate(400deg);
+    transform-origin: bottom;
+  }
+
+  .minhand{
+    position: absolute;
+    width: 3px;
+    border: 1px solid black;
+    background-color: black;
+    height: 170px;
+    left: 48%;
+    top: 17%;
+    border-radius: 5px;
+    transform: rotate(450deg);
+    transform-origin: bottom;
+  }
+
+  .num12{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 3%;
+    left: 46%;
+  }
+
+  .num6{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 93%;
+    left: 49%;
+  }
+
+  .num3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 50%;
+    left: 94%;
+  }
+
+  .num9{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 50%;
+    left: 3.5%;
+  }
+
+  .num1{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 9%;
+    left: 71%;
+  }
+
+  .num2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 27%;
+    left: 88.5%;
+  }
+
+  .num4{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 72%;
+    left: 86.5%;
+  }
+
+  .num5{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 87%;
+    left: 71%;
+  }
+
+  .num7{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 87%;
+    left: 25%;
+  }
+
+  .num8{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 72%;
+    left: 10%;
+  }
+
+  .num10{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 27%;
+    left: 8%;
+  }
+
+  .num11{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 22px;
+    top: 9%;
+    left: 24%;
+  }
+
+
+  @media only screen and (min-width:350px) and (max-width: 440px){
+    .clock{
+      position: relative;
+      left: 1%;
+      top: 200px;
+    }
+  }
+
+
+
+
+
