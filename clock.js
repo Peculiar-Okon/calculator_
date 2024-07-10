@@ -9,7 +9,7 @@ let set_clock = setInterval(() => {
     let min = date_now.getMinutes()
     let sec = date_now.getSeconds()
 
-    let calc_hr = (hr * 30) * (min / 2)
+    let calc_hr = (hr % 12) * 30 + (min / 2)
     let calc_min = (min * 6) * (sec / 10)
     let calc_sec = sec * 6
 
