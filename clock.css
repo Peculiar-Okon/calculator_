@@ -29,6 +29,7 @@
     border-radius: 100%;
     left: 48%;
     top: 50%;
+    background-color: black;
   }
 
   .sechand{
@@ -40,6 +41,7 @@
     left: 49%;
     top: 11%;
     border-radius: 5px;
+    transform: rotate(2deg);
     transform-origin: bottom;
     
   }
@@ -53,7 +55,7 @@
     left: 49%;
     top: 21%;
     border-radius: 5px;
-    transform: rotate(400deg);
+    transform: rotate(2deg);
     transform-origin: bottom;
   }
 
@@ -63,10 +65,10 @@
     border: 1px solid black;
     background-color: black;
     height: 170px;
-    left: 48%;
-    top: 17%;
+    left: 49%;
+    top: 16%;
     border-radius: 5px;
-    transform: rotate(450deg);
+    transform: rotate(2deg);
     transform-origin: bottom;
   }
 
